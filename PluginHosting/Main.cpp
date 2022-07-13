@@ -1,3 +1,8 @@
+/*
+//MIT License
+//
+//Copyright (c) 2022 Aaron Anderson
+*/
 #include <JuceHeader.h>
 #include "PluginStuff.h"
 #include "PluginWindow.h"
@@ -81,8 +86,8 @@ namespace EngineHelpers
         }
     };
 }
-
-//==========================================================================================
+//======================================================================================
+//===This class massaged from tracktion_engine/examples/PluginDemo.h====================
 class TrackPluginListComponent : public juce::Component,
                                  private EngineHelpers::FlaggedAsyncUpdater,
                                  private tracktion_engine::ValueTreeAllEventListener
